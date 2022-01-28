@@ -4,7 +4,8 @@
   "scripts": {
     "postinstall": "patch-package",
     "ng": "ng",
-    "start": "ng serve",
+    "prestart": "npm run build",
+    "start": "npx serve .",
     "build": "ng build single-spa-angular-unmount-issue --configuration production",
     "watch": "ng build single-spa-angular-unmount-issue --watch --configuration development"
   },
