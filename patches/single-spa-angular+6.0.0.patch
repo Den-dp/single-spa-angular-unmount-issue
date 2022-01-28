@@ -1,0 +1,14 @@
+diff --git a/node_modules/single-spa-angular/package.json b/node_modules/single-spa-angular/package.json
+index 73ae5b0..aef2ffc 100644
+--- a/node_modules/single-spa-angular/package.json
++++ b/node_modules/single-spa-angular/package.json
+@@ -39,6 +39,9 @@
+     "./package.json": {
+       "default": "./package.json"
+     },
++    "./lib/webpack": {
++      "default": "./lib/webpack/index.js"
++    },
+     ".": {
+       "types": "./single-spa-angular.d.ts",
+       "esm2020": "./esm2020/single-spa-angular.mjs",
